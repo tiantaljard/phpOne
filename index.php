@@ -76,6 +76,10 @@
     foreach ($provisionedActivities as $x){
        print "<p>$x</p>" ;
     }
+    ?>
+</p>
+<p>
+    <?php   
     $provisionedActivities[0]="Hugs";
     foreach ($provisionedActivities as $y){
         print "<p>$y</p>" ;
