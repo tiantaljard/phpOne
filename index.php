@@ -19,7 +19,7 @@
 
     <?php
     $name = "Simon";
-    if ($name == "Simon") {
+    if ($name == "Edgar") {
     print "I know you!";
     }
     else {
