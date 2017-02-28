@@ -84,8 +84,15 @@
     foreach ($provisionedActivities as $y){
         print "<p>$y</p>" ;
     }
+    ?>
+</p>
 
-
+<p>
+    <?php
+    unset($provisionedActivities[1]);
+    foreach ($provisionedActivities as $y){
+        print "<p>$y</p>" ;
+    }
     ?>
 </p>
 
