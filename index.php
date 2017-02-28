@@ -9,7 +9,7 @@
     echo "Hello, world!";  echo "Hello," . " " . "world" . "!";
     echo 5 * 7;
     $myname = "Frodo Baggins";
-    $myage = 111;
+    $myage = 20;
     echo "My name is" . $myname . "and I am TWAT" . $myage;
     ?>
     <?php     echo "I get printed!";
