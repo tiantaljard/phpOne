@@ -52,7 +52,7 @@
 
 <p>
     <?php
-    $wantedgood  = "asfd";
+    $wantedgood  = "mugs";
 
     switch ($wantedgood ) {     
         case "mugs":
