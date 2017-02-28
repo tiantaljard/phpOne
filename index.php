@@ -50,6 +50,26 @@
     ?>
 </p>
 
+<p>
+    <?php
+    $wantedgood  = "mugs";
+
+    switch ($wantedgood ) {     
+        case "mugs":
+            echo "You have to be 18 to buy mugs";
+            break;     
+        case "specs":
+            echo "you have to be 16 to buy specs";
+            break;     
+        case "sousage rolls":
+            echo "you have to be 21 to buy sousage rolls";
+            break;     
+        default:         
+            echo "If you are buying something else, i dont care"; }
+
+    ?>
+</p>
+
 
 </body>
 </html>
