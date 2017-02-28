@@ -96,6 +96,23 @@
     ?>
 </p>
 
+<p>
+    <?php
+    for($L=1 ; $L<30; $L++){
+        echo gettype($L/2), "\n";
+        echo gettype($L/3), "\n";
+        echo gettype($L/4), "\n";
+    }
+
+
+    ?>
+
+</p>
+
+
+
+
+
 
 
 </body>
