@@ -12,6 +12,10 @@
             $myage = 111;
             echo "My name is" . $myname . "and I am TWAT" . $myage;
             ?>
+            <?php     echo "I get printed!";
+            // I don't! I'm a comment.
+            /* I don’t get printed either    and neither do I */
+            ?>
         </p>
         </body>
     </html>
