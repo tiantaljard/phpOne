@@ -74,7 +74,7 @@
     <?php
     $provisionedActivities = array ("mugs","sousage rolls","specs");
     foreach ($provisionedActivities as $x){
-       print "<p>$x</p>" ;
+       print "$x" ;
     }
 
     ?>
