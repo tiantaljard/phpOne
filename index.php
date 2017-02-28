@@ -77,8 +77,8 @@
        print "<p>$x</p>" ;
     }
     $provisionedActivities[0]="Hugs";
-    foreach ($provisionedActivities as $x){
-        print "<p>$x</p>" ;
+    foreach ($provisionedActivities as $y){
+        print "<p>$y</p>" ;
     }
 
 
