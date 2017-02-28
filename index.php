@@ -99,22 +99,15 @@
 <p>
     <?php
     for($L=1 ; $L<30; $L++){
-        if (gettype($L/2) == gettype(1/1)){
-            echo gettype($L / 2), "\n";
-            echo gettype($L / 3), "\n";
-            echo gettype($L / 4), "\n";
+        if (gettype($L/4) == gettype(1/1)){
+            print "On day {$L} of the month specs and sousages are available";
         }
+
+
     }
 
     ?>
 
 </p>
-
-
-
-
-
-
-
 </body>
 </html>
