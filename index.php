@@ -31,11 +31,17 @@
 <p>
     <?php
     echo "Your name is {$myname } and you are  {$myage} years old";
-    if ($myage == 16) {
-    //        print "I know sdgs you!";
+    if ($myage > 21) {
+            print "You are allowed to buy 21 year age restricted things";
     }
-    else {
-    //      print "Who are you?";
+    elseif ($myage > 18)  {
+        print "You are allowed to buy 18 year age restricted things";
+    }
+    elseif ($myage > 16)  {
+        print "You are allowed to buy 18 year age restricted things";
+    }
+    elseif (16 <= $myage)  {
+        print "You are a baby";
     }
     ?>
 </p>
