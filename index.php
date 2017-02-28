@@ -100,7 +100,9 @@
     <?php
     for($L=1 ; $L<30; $L++){
         if (gettype($L/4) == gettype(1/1)){
-            print "On DDday {$L} of the month specs and sousages are available \n";
+
+            print "<p> On DDday {$L} of the month specs and sousages are available </p> ";
+
         }
 
 
