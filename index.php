@@ -25,17 +25,9 @@
     else {
         print "Who are you?";
     }
-
-    echo "Your name is {$myname } and you are  {$myage} years old";
-    if ($myage == 16) {
-//        print "I know sdgs you!";
-    }
-    else {
-  //      print "Who are you?";
-    }
-
     ?>
 </p>
+
 <p>
     <?php
     echo "Your name is {$myname } and you are  {$myage} years old";
