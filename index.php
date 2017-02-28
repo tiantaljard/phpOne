@@ -44,7 +44,7 @@
     elseif ($myage > 16)  {
         print "You are allowed to buy 16 year age restricted things";
     }
-    elseif (16 <= $myage)  {
+    elseif ($myage <16)  {
         print "You are a baby";
     }
     ?>
