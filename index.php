@@ -30,7 +30,11 @@
 
 <p>
     <?php
-    echo "Your name is {$myname } and you are  {$myage} years old";
+    echo "Your name is {$myname } and you are  {$myage} years old"
+    ?>
+</p>
+<p>
+    <?php
     if ($myage > 21) {
             print "You are allowed to buy 21 year age restricted things";
     }
