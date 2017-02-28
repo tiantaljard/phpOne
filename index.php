@@ -16,15 +16,17 @@
     // I don't! I'm a comment.
     /* I don’t get printed either    and neither do I */
     ?>
+
     <?php
     $name = "Edgar";
     if ($name == "Simon") {
-        print "I know you!";
-    }   else
-    {
+    print "I know you!";
+    }
+    else {
         print "Who are you?";
-    } ?>
-    
+    }
+    ?>
+
 
 </p>
 </body>
