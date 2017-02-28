@@ -59,7 +59,7 @@
             echo "You have to be 18 to buy mugs";
             break;     
         case "specs":
-            echo "you have to be 16 to buy specs";
+            echo "you have  to be 16 to buy specs";
             break;     
         case "sousage rolls":
             echo "you have to be 21 to buy sousage rolls";
