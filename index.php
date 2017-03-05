@@ -98,7 +98,7 @@
 
 <p>
     <?php
-    for($L=1 ; $L<30; $L++){
+    for($L=1 ; $L<31; $L++){
         if (gettype($L/4) == gettype(1/1)){
             print "<p> On day {$L} of the month specs and sousages are available </p> ";
         }
