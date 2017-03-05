@@ -5,6 +5,16 @@
 <body>
 <p>
     <?php
+    $username = "Simon";
+    $password = "bolivar";
+    print "<p> Hardcode {username} hardcode Password {password} </p> ";
+
+
+    ?>
+
+
+
+    <?php
     echo "Hello World TTESD d";
     echo "Hello, world!";  echo "Hello," . " " . "world" . "!";
     echo 5 * 7;
