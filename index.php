@@ -7,7 +7,7 @@
     <?php
     $username = "Simon";
     $password = "bolivar";
-    print "<p> Hardcode {username} hardcode Password {password} </p> ";
+    print "<p> Hardcode {$username} hardcode Password {$password} </p> ";
 
 
     ?>
